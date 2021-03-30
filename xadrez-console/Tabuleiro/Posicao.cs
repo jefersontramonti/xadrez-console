@@ -1,8 +1,8 @@
 ﻿
 
-namespace Tabuleiro
+namespace tabuleiro
 {
-    class Posicao {
+    class Posicao {   //posição onde a peça se encontra no tabuleiro
 
         public int linha { get; set; }
         public int coluna { get; set; }

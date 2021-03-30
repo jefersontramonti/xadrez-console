@@ -1,5 +1,5 @@
-﻿
-namespace Tabuleiro
+﻿//Classe Tabuleiro mantem as cores das peças
+namespace tabuleiro
 {
     enum Cor
     {
