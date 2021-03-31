@@ -1,5 +1,4 @@
-﻿using System;
-using tabuleiro;
+﻿using tabuleiro;
 
 namespace xadrez
 {
@@ -17,13 +16,12 @@ namespace xadrez
 
         public Posicao toPosicao()
         {
-            return new Posicao(8 - linha, coluna - 'a'); //cria aposição xadrez
+            return new Posicao(8 - linha, coluna - 'a');
         }
 
         public override string ToString()
         {
             return "" + coluna + linha;
         }
-
     }
 }

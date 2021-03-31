@@ -1,8 +1,6 @@
 ﻿//Classe Tabuleiro mantem as cores das peças
-namespace tabuleiro
-{
-    enum Cor
-    {
+namespace tabuleiro{
+    enum Cor{
         Branca,
         Preta,
         Amarela,
